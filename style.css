@@ -182,3 +182,142 @@ evil-tinder {
       background-size: auto 50px;
     } 
 }
+
+
+
+
+/* apply styles for small screens */
+@media screen and (max-width: 767px) {
+  /* adjust font size */
+  body {
+    font-size: 16px;
+  }
+
+  /* adjust header height and logo size */
+  .header {
+    height: 60px;
+    background-size: auto 40%;
+  }
+
+  /* adjust image sizes */
+  .current img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .next img {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* adjust button sizes and positions */
+  .likeBtn, .dissBtn {
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin: 0 5px;
+    background-size: auto 30px;
+  }
+
+  /* hide undo and super buttons */
+  .undoBtn, .superBtn {
+    display: none;
+  }
+}
+
+/* apply styles for medium screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* adjust font size */
+  body {
+    font-size: 18px;
+  }
+
+  /* adjust header height and logo size */
+  .header {
+    height: 80px;
+    background-size: auto 50%;
+  }
+
+  /* adjust image sizes */
+  .current img {
+    width: 80%;
+    margin: 10px;
+  }
+
+  .next img {
+    width: 80%;
+    margin: 10px;
+  }
+
+  /* adjust button sizes and positions */
+  .likeBtn, .dissBtn {
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    margin: 0 10px;
+    background-size: auto 40px;
+  }
+
+  /* hide undo button */
+  .undoBtn {
+    display: none;
+  }
+
+  /* adjust super button size */
+  .superBtn {
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    margin: 0 10px;
+    background-size: auto 30px;
+  }
+}
+
+/* apply styles for large screens */
+@media screen and (min-width: 992px) {
+  /* adjust font size */
+  body {
+    font-size: 20px;
+  }
+
+  /* adjust header height and logo size */
+  .header {
+    height: 100px;
+    background-size: auto 55%;
+  }
+
+  /* adjust image sizes */
+  .current img {
+    width: 60%;
+    margin: 20px;
+  }
+
+  .next img {
+    width: 60%;
+    margin: 20px;
+  }
+
+  /* adjust button sizes and positions */
+  .likeBtn, .dissBtn {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 0 20px;
+    background-size: auto 50px;
+  }
+
+  /* show all buttons */
+  .undoBtn, .superBtn {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 0 20px;
+    background-size: auto 40px;
+  }
+}
+
+
+
+
+
